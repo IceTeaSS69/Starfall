@@ -19,19 +19,19 @@ public class WalkRem : MonoBehaviour
     }
     private void Awake()
     {
-        
 
+        Record.text = ($"{Health}");
 
 
 
     }
     public void OnCollisionEnter2D(Collision2D collision)
-    { 
+    {
         if (collision.gameObject.tag == "Coin")
         {
             Destroy(collision.gameObject);
             Coins++;
-            Record.text = ($"{Coins}");
+            
             Health--;
         }
     }
@@ -41,7 +41,7 @@ public class WalkRem : MonoBehaviour
         {          
             Destroy(collider.gameObject);
             Coins++;
-            Record.text = ($"{Coins}");
+            
             Health--;
         }
     }
