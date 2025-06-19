@@ -6,32 +6,40 @@ public class WalkRem : MonoBehaviour
 {
 
     [SerializeField]
- 
+
     public int Coins = 0;
     public float WalkL = 0.5f;
     public int Health = 100;
     public Text Record;
-    
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+
     }
-    private void Awake()
+    public void Awake()
     {
 
-        Record.text = ($"{Health}");
+        TextUpdate();
 
 
 
     }
+    private void TextUpdate()
+    {
+        if (Record != null)
+        {
+            Record.text = Health.ToString();
+        }
+    }
+
     public void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Coin")
         {
             Destroy(collision.gameObject);
             Coins++;
-            
+            TextUpdate();
             Health--;
         }
     }
@@ -41,7 +49,7 @@ public class WalkRem : MonoBehaviour
         {          
             Destroy(collider.gameObject);
             Coins++;
-            
+            TextUpdate();
             Health--;
         }
     }
@@ -57,7 +65,7 @@ public class WalkRem : MonoBehaviour
         {
             gameObject.transform.position = gameObject.transform.position + new Vector3(WalkL, 0, 0);
         }
-
+        TextUpdate();
 
     }
     public void HealthAndStamina()
@@ -65,7 +73,7 @@ public class WalkRem : MonoBehaviour
         if(Health >= 0)
         {
             Destroy(gameObject);
-            Record.text = ($"{Coins}");
+            TextUpdate();
         }
     }
 }

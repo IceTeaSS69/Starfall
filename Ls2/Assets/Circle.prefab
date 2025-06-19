@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3487378415757375496}
-  - component: {fileID: 8835170726053788517}
   - component: {fileID: 7418855313626231862}
   - component: {fileID: 4975610287660256992}
   - component: {fileID: 1617766125919020804}
@@ -35,22 +34,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8835170726053788517
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 385881433744680806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a508646c5b77d1846a9e5b667e103daf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  circlePrefab: {fileID: 385881433744680806}
-  numberOfCircles: 18
-  spawnRadius: 18
-  spawnInterval: 3
 --- !u!212 &7418855313626231862
 SpriteRenderer:
   m_ObjectHideFlags: 0
