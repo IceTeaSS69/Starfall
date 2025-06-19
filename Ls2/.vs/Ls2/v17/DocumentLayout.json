@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\IceTea\\Desktop\\LessN2\\Ls2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EFA73378-F0A8-C922-8E48-7AD7C0014F51}|Assembly-CSharp.csproj|C:\\Users\\IceTea\\Desktop\\LessN2\\Ls2\\assets\\plat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EFA73378-F0A8-C922-8E48-7AD7C0014F51}|Assembly-CSharp.csproj|c:\\users\\icetea\\desktop\\lessn2\\ls2\\assets\\plat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFA73378-F0A8-C922-8E48-7AD7C0014F51}|Assembly-CSharp.csproj|solutionrelative:assets\\plat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{EFA73378-F0A8-C922-8E48-7AD7C0014F51}|Assembly-CSharp.csproj|solutionrelative:assets\\coinscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFA73378-F0A8-C922-8E48-7AD7C0014F51}|Assembly-CSharp.csproj|c:\\users\\icetea\\desktop\\lessn2\\ls2\\assets\\walkrem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EFA73378-F0A8-C922-8E48-7AD7C0014F51}|Assembly-CSharp.csproj|C:\\Users\\IceTea\\Desktop\\LessN2\\Ls2\\assets\\walkrem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFA73378-F0A8-C922-8E48-7AD7C0014F51}|Assembly-CSharp.csproj|solutionrelative:assets\\walkrem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Assets\\Plat.cs",
               "ToolTip": "C:\\Users\\IceTea\\Desktop\\LessN2\\Ls2\\Assets\\Plat.cs",
               "RelativeToolTip": "Assets\\Plat.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwDMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-17T19:12:07.891Z",
               "EditorCaption": ""
@@ -60,8 +60,7 @@
               "RelativeToolTip": "Assets\\WalkRem.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwAgAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T17:34:13.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T17:34:13.081Z"
             }
           ]
         }
