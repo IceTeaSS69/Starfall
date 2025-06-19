@@ -6,6 +6,7 @@ using static UnityEngine.InputSystem.LowLevel.InputStateHistory;
 
 public class Plat : MonoBehaviour
 {
+    public GameObject circlePrefab;
     public GameObject player;
     public Text Scoreline;
 
@@ -16,6 +17,7 @@ public class Plat : MonoBehaviour
         {
             // Показываем текст
             Scoreline.text = ($"Your Record/{DelCircles}");
+            
             Time.timeScale = 0;
         }
     }

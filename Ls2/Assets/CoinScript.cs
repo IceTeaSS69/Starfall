@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class CoinScript : MonoBehaviour
 {
+  
     public GameObject circlePrefab; 
     public int numberOfCircles = 18; 
     public float spawnRadius = 18f;
     public float spawnInterval = 4f; 
-    private float nextSpawnTime; 
+    private float nextSpawnTime;
+    
 
     void Start()
     {
         nextSpawnTime = Time.time;
+               
     }
 
     void Update()
@@ -22,7 +25,7 @@ public class CoinScript : MonoBehaviour
             SpawnCircles();
             nextSpawnTime = Time.time + spawnInterval;
         }
-        
+      
     }
 
    

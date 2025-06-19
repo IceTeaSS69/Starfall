@@ -31,6 +31,7 @@ public class WalkRem : MonoBehaviour
         if (Record != null)
         {
             Record.text = Health.ToString();
+
         }
     }
 
@@ -77,7 +78,7 @@ public class WalkRem : MonoBehaviour
         {
             Destroy(gameObject);
             TextUpdate();
-            
+            Record.text = "0";
         }
     }
 }
