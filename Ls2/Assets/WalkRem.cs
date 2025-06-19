@@ -6,7 +6,8 @@ public class WalkRem : MonoBehaviour
 {
 
     [SerializeField]
-
+   
+    
     public int Coins = 0;
     public float WalkL = 0.5f;
     public int Health = 100;
@@ -22,7 +23,7 @@ public class WalkRem : MonoBehaviour
 
         TextUpdate();
 
-
+        
 
     }
     private void TextUpdate()
@@ -51,6 +52,8 @@ public class WalkRem : MonoBehaviour
             Coins++;
             TextUpdate();
             Health--;
+
+            
         }
     }
 
@@ -66,14 +69,15 @@ public class WalkRem : MonoBehaviour
             gameObject.transform.position = gameObject.transform.position + new Vector3(WalkL, 0, 0);
         }
         TextUpdate();
-
+        HealthAndStamina();
     }
     public void HealthAndStamina()
     {
-        if(Health >= 0)
+        if (Health <= 0)
         {
             Destroy(gameObject);
             TextUpdate();
+            
         }
     }
 }
